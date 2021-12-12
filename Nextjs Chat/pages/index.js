@@ -11,7 +11,7 @@ const router = useRouter()
     e.preventDefault()
     try{
       axios.put("https://api.chatengine.io/users/",{username,secret},
-      {headers:{"PRIVATE-KEY":"f71e7bbe-8df2-4657-ba3a-4a10aa418c7a"}})
+      {headers:{"PRIVATE-KEY":"Please use your own key"}})
       .then((res)=>{
         router.push("/chats")
       })
