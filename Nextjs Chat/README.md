@@ -6,26 +6,25 @@
     height="100%"
 />
 
-This project is powered by [Chat Engine](https://chatengine.io).
+## `How to use`
 
-## Tutorial Setup
+Clone the repo using git clone.
+And install all the dependecies
+#### `react`,
+#### `react-dom`,
+#### `axios`,
+#### `react-chat-app`,
+#### `next`.
+Please replace the key and project id by creating your own account at chatengine.io 
 
-Download Code > Zip from [the main branch](https://github.com/alamorre/nextjs-chat-tutorial/).
+[Link to create the account](https://chatengine.io/)
 
-Follow the Video Tutorial [right here](https://chatengine.io).
 
-Push to your own repo and link to [vercel](https://vercel.io).
+### `npm run dev to run in dev mode`
 
-## Setup Finished Project
+Install everything with `npm` then run `npm run dev` to get up and running.
 
-For the finished version of this project, go to [the last branch](https://github.com/alamorre/nextjs-chat-tutorial/tree/3-chats).
+## `npm start`
 
-Go to [Chat Engine](https://chatengine.io) and create a account and project.
+To run the next app in production mode.
 
-Find the Private Key `c2f82e63-9978-4c5c-9c17-8b0dec845dc6` and Project ID `b60a6d8b-d377-477e-af88-e47de35b3e89` then replace the values with your API keys.
-
-The project has been deleted so those keys won't work anymore.
-
-### `yarn dev`
-
-Install everything with `yarn` then run `yarn dev` to get up and running.
